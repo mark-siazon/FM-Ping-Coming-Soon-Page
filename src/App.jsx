@@ -7,11 +7,16 @@ import imgIllustration from "./assets/illustration-dashboard.png";
 
 const App = () => {
   return (
-    <div className="flex flex-col items-center sm:justify-center min-h-screen min-w-28 bg-gray-200 text-center">
+    <div className="flex flex-col items-center sm:justify-center min-h-screen min-w-28  text-center">
       <HeaderSect />
-      <ButtonSect />
-      <img src={imgIllustration} className="w-auto max-w-xs md:max-w-xl lg:max-w-2xl my-16 transition-all duration-700" alt="Skeletal structure of the incoming page" />
-      <SocmedBtnSect />
+
+      <main className="flex flex-col items-center sm:justify-center text-center">
+        <ButtonSect />
+        <img src={imgIllustration} className="w-auto max-w-xs md:max-w-xl lg:max-w-2xl my-16 transition-all duration-700" 
+        alt="Skeletal structure of the incoming page" />
+        <SocmedBtnSect />
+      </main>
+
       <Footer />
       {/* Todo ## + Footer + Error States */}
     </div>
