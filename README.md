@@ -1,98 +1,126 @@
-# Frontend Mentor - Ping coming soon page
 
-![Design preview for the Ping coming soon page coding challenge](./design/desktop-preview.jpg)
+# Ping Coming Soon Page
 
-This is a solution to the [Ping coming soon page coding challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da/hub).
+This repository contains the **Ping Coming Soon Page** project, built using modern web development tools such as React, Vite, and Tailwind CSS. It is based on the [Frontend Mentor Challenge](https://www.frontendmentor.io) to create a responsive and interactive landing page.
 
-Frontend Mentor challenges help improve skills by building realistic projects.
+---
 
-## Table of contents:
+## Table of Contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshots)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-- [Author](#author)
+  - [Features](#features)
+  - [Live Demo](#live-demo)
+- [Setup and Installation](#setup-and-installation)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Development Workflow](#development-workflow)
+- [File Structure](#file-structure)
+- [Technologies Used](#technologies-used)
+- [Acknowledgments](#acknowledgments)
 
-## Overview:
+---
 
-### The challenge:
+## Overview
 
-\***\*To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.\*\***
-Users should be able to:
+### Features
 
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Submit their email address using an `input` field
-- Receive an error message when the `form` is submitted if:
-  - The `input` field is empty. The message for this error should say _"Whoops! It looks like you forgot to add your email"_
-  - The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say _"Please provide a valid email address"_
+- **Responsive Design**: Adapts to different screen sizes for optimal user experience.
+- **Interactive UI**: Includes hover effects and form validation.
+- **Modern Stack**: Built with React, Vite, and Tailwind CSS for fast and scalable development.
 
-<br>
+## Setup and Installation
 
-Preview of initial design:
-![Design preview for the Order summary card coding challenge](./documentation/design/desktop-preview.jpg)
+### Prerequisites
 
-### Screenshots:
+Before you begin, ensure you have the following installed on your machine:
 
-<div align="center">
+- [Node.js](https://nodejs.org/) (LTS version recommended)
+- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
 
-| Fullscreen View (Desktop)                           |
-| --------------------------------------------------- |
-| ![](documentation/design-finished/0.1-Original.jpg) |
+### Installation
 
-| Animated Preview                                          |
-| --------------------------------------------------------- |
-| ![](documentation/design-finished/0.3-animatedResult.gif) |
+1. Clone this repository:
 
-<br>
+   ```bash
+   git clone https://github.com/your-username/ping-coming-soon-page.git
+   cd ping-coming-soon-page
+   ```
 
-**Note: This is a Mobile-First Approach & Wait for the GIF to load**
+2. Install dependencies:
 
-<br>
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-All viewports were included (except for the 4k view), in case the observer wishes to see the minor changes.
+### Development Workflow
 
-<br>
+- Start the development server:
 
-| Desktop View (1440px)                              | Laptop View (1024px)                              | Tablet View (768px)                               |
-| -------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------- |
-| ![](documentation/design-finished/1.0-Desktop.jpg) | ![](documentation/design-finished/1.1-Laptop.jpg) | ![](documentation/design-finished/1.2-Tablet.jpg) |
+  ```bash
+  npm run dev
+  # or
+  yarn dev
+  ```
 
-| Mobile L (430px)                                   | Mobile M (375px)                                   | Mobile S (320px)                                   |
-| -------------------------------------------------- | -------------------------------------------------- | -------------------------------------------------- |
-| ![](documentation/design-finished/1.3-MobileL.jpg) | ![](documentation/design-finished/1.4-MobileM.jpg) | ![](documentation/design-finished/1.5-MobileS.jpg) |
+  The site will be accessible at `http://localhost:[Your Port]`.
 
-</div>
+- Build the project for production:
 
-### Links:
+  ```bash
+  npm run build
+  # or
+  yarn build
+  ```
 
-- Live Site URL: [Website Link - Click Me](https://mark-siazon.github.io/FM-Base-Apparel-Page/)
-- Solution URL: [FrontEndMentor - Click Me](https://www.frontendmentor.io/solutions/base-apparel-page-responsive-mobile-first-js-flexboxandgrid-scss-XSd51tHVG1)
+- Preview the production build:
 
-## My process:
+  ```bash
+  npm run preview
+  # or
+  yarn preview
+  ```
 
-### Built with:
+---
 
-- HTML5, CSS3
-- Vanila Javascript
-- Mobile-First Approach
-  - Grid Layout + Flexbox
-- Responsive Web Design
-- SASS/SCSS
+## File Structure
 
-### What I learned:
+```
+Ping-Coming-Soon-Page/
+|
+├── index.html             # Main HTML file
+├── package.json           # Project metadata and scripts
+├── package-lock.json      # Dependency lock file
+├── postcss.config.js      # PostCSS configuration
+├── tailwind.config.js     # Tailwind CSS configuration
+├── vite.config.js         # Vite configuration
+├── src/                   # Source files for the project
+│   ├── assets/            # Static assets (images, fonts, etc.)
+│   ├── components/        # Reusable React components
+│   ├── styles/            # CSS files, including Tailwind imports
+│   └── App.jsx            # Main React app component
+├── .gitignore             # Files and directories to ignore in Git
+├── eslint.config.js       # ESLint configuration
+└── README.md              # Project documentation
+```
 
-Recap over some of the major learnings while working through this project:
+---
 
-<hr>
+## Technologies Used
 
-## Author:
+- **Frontend Framework**: [React](https://reactjs.org/)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **CSS Framework**: [Tailwind CSS](https://tailwindcss.com/)
+- **Code Linting**: [ESLint](https://eslint.org/)
+- **PostCSS**: Used for CSS transformations.
 
-- Github - [@Iron-Mark](https://github.com/Iron-Mark)
-- Github - [@Mark-Siazon](https://github.com/Mark-Siazon)
-- Frontend Mentor - [@Iron-Mark](https://www.frontendmentor.io/profile/Iron-Mark)
-  - _(The Assets used in this project is originally from FrontendMentor)_
+---
+
+## Acknowledgments
+
+This project was inspired by the [Frontend Mentor](https://www.frontendmentor.io) challenges. Special thanks to the community for providing resources and guidance.
+
+---
+
+**Have fun coding!** 🚀
