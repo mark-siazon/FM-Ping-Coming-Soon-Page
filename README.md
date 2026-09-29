@@ -28,6 +28,10 @@ This repository contains the **Ping Coming Soon Page** project, built using mode
 - **Interactive UI**: Includes hover effects and form validation.
 - **Modern Stack**: Built with React, Vite, and Tailwind CSS for fast and scalable development.
 
+### Live Demo
+
+- [GitHub Pages](https://mark-siazon.github.io/FM-Ping-Coming-Soon-Page/)
+
 ## Setup and Installation
 
 ### Prerequisites
